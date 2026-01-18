@@ -27,7 +27,7 @@ const TRANSLATIONS = {
       adminPassword: "Heslo správce",
       adminPasswordReq: "Hesla musí mít alespoň 8 znaků.",
       teamHint:
-        "Ve výchozím nastavení budete jediným správcem. Po dokončení onboardingu můžete vytvářet a zvat další uživatele nebo správce. Neztrácejte své heslo, protože pouze správci mohou resetovat hesla.",
+        "Ve výchozím nastavení budete jediným správcem. Po dokončení onboardingu můžete vytvářet a zvát další uživatele nebo správce. Neztraťte své heslo, protože pouze správci mohou resetovat hesla.",
     },
     data: {
       title: "Zpracování dat a soukromí",
@@ -106,7 +106,7 @@ const TRANSLATIONS = {
     "agent-skills": "Dovednosti agenta",
     admin: "Správce",
     tools: "Nástroje",
-    "system-prompt-variables": "Proměnné systémové výzvy",
+    "system-prompt-variables": "Proměnné systémového promptu",
     "experimental-features": "Experimentální funkce",
     contact: "Kontaktovat podporu",
     "browser-extension": "Rozšíření prohlížeče",
@@ -129,8 +129,8 @@ const TRANSLATIONS = {
     "password-reset": {
       title: "Reset hesla",
       description: "Níže uveďte potřebné informace pro resetování hesla.",
-      "recovery-codes": "Záchranné kódy",
-      "recovery-code": "Záchranný kód {{index}}",
+      "recovery-codes": "Kódy pro obnovení",
+      "recovery-code": "Kód pro obnovení {{index}}",
       "back-to-login": "Zpět k přihlášení",
     },
   },
@@ -149,7 +149,7 @@ const TRANSLATIONS = {
         },
         send_chat: {
           title: "Odeslat chat",
-          description: "Začněte konverzaci se svým asistentem AI",
+          description: "Začněte konverzaci se svým AI asistentem",
           action: "Chatovat",
         },
         embed_document: {
@@ -160,7 +160,7 @@ const TRANSLATIONS = {
         },
         setup_system_prompt: {
           title: "Nastavit systémovou výzvu",
-          description: "Nakonfigurujte chování svého asistenta AI",
+          description: "Nakonfigurujte chování svého AI asistenta",
           action: "Nastavit",
         },
         define_slash_command: {
@@ -185,9 +185,9 @@ const TRANSLATIONS = {
       title: "Prozkoumat další funkce",
       features: {
         customAgents: {
-          title: "Vlastní agenti AI",
+          title: "Vlastní AI agenti",
           description:
-            "Vytvářejte výkonné agenty AI a automatizace bez kódování.",
+            "Vytvářejte výkonné AI agenty a automatizace bez kódování.",
           primaryAction: "Chatovat pomocí @agenta",
           secondaryAction: "Sestavit tok agenta",
         },
@@ -199,11 +199,11 @@ const TRANSLATIONS = {
           secondaryAction: "Prozkoumat v centru",
         },
         systemPrompts: {
-          title: "Systémové výzvy",
+          title: "Systémové prompty",
           description:
-            "Upravte systémovou výzvu pro přizpůsobení odpovědí AI pracovního prostoru.",
-          primaryAction: "Upravit systémovou výzvu",
-          secondaryAction: "Spravovat proměnné výzvy",
+            "Upravte systémový prompt pro přizpůsobení odpovědí AI pracovního prostoru.",
+          primaryAction: "Upravit systémový prompt",
+          secondaryAction: "Spravovat proměnné promptu",
         },
       },
     },
@@ -214,7 +214,7 @@ const TRANSLATIONS = {
       title: "Zdroje",
       links: {
         docs: "Dokumentace",
-        star: "Označit hvězdou na Githubu",
+        star: "Označit hvězdičkou na Githubu",
       },
       keyboardShortcuts: "Klávesové zkratky",
     },
@@ -258,7 +258,7 @@ const TRANSLATIONS = {
     delete: {
       title: "Smazat pracovní prostor",
       description:
-        "Smažte tento pracovní prostor a všechna jeho data. Toto smaže pracovní prostor pro všechny uživatele.",
+        "Smazání pracovního prostoru a všech jeho dat. Toto smaže pracovní prostor pro všechny uživatele.",
       delete: "Smazat pracovní prostor",
       deleting: "Mazání pracovního prostoru...",
       "confirm-start": "Chystáte se smazat celý",
@@ -303,13 +303,13 @@ const TRANSLATIONS = {
         "Více než 45 pravděpodobně povede k trvalým selháním chatu v závislosti na velikosti zprávy.",
     },
     prompt: {
-      title: "Systémová výzva",
+      title: "Systémový prompt",
       description:
-        "Výzva, která bude použita v tomto pracovním prostoru. Definujte kontext a pokyny pro AI k vygenerování odpovědi. Měli byste poskytnout pečlivě vytvořenou výzvu, aby AI mohla generovat relevantní a přesnou odpověď.",
+        "Prompt, který bude použit v tomto pracovním prostoru. Definujte kontext a pokyny pro AI k vygenerování odpovědi. Měli byste poskytnout pečlivě vytvořený prompt, aby AI mohla generovat relevantní a přesnou odpověď.",
       history: {
-        title: "Historie systémových výzev",
+        title: "Historie systémových promptů",
         clearAll: "Vymazat vše",
-        noHistory: "Žádná historie systémových výzev není k dispozici",
+        noHistory: "Žádná historie systémových promptů není k dispozici",
         restore: "Obnovit",
         delete: "Smazat",
         publish: "Publikovat do komunitního centra",
@@ -430,7 +430,7 @@ const TRANSLATIONS = {
       id: "ID",
       by: "Odeslal",
       workspace: "Pracovní prostor",
-      prompt: "Výzva",
+      prompt: "Dotaz",
       response: "Odpověď",
       at: "Odesláno v",
     },
@@ -441,9 +441,9 @@ const TRANSLATIONS = {
       description: "Nastavte své předvolby rozhraní pro AnythingLLM.",
     },
     branding: {
-      title: "Značení a bílé označení",
+      title: "Branding  a white-labeling",
       description:
-        "Bílé označení instance AnythingLLM pomocí vlastního značení.",
+        "Přízpůsobení vzhledu instance AnythingLLM na vlastní značku/brand.",
     },
     chat: {
       title: "Chat",
@@ -487,7 +487,7 @@ const TRANSLATIONS = {
           "Vyberte režim zarovnání zpráv při použití rozhraní chatu.",
       },
       "display-language": {
-        title: "Zobrazovací jazyk",
+        title: "Jazyk zobrazení",
         description:
           "Vyberte preferovaný jazyk pro vykreslení rozhraní AnythingLLM - pokud jsou k dispozici překlady.",
       },
@@ -584,7 +584,7 @@ const TRANSLATIONS = {
   embedding: {
     title: "Preferovaný embedding",
     "desc-start":
-      "Při použití LLM, který nativně nepodporuje engine embeddingu - možná budete muset additionally uvést přihlašovací údaje pro embeddingování textu.",
+      "Při použití LLM, který nativně nepodporuje engine embeddingu - možná budete muset dodatečně uvést přihlašovací údaje pro embeddingování textu.",
     "desc-end":
       "Embedding je proces převodu textu na vektory. Tyto přihlašovací údaje jsou nutné k převodu vašich souborů a výzev do formátu, který AnythingLLM může použít ke zpracování.",
     provider: {
@@ -653,7 +653,7 @@ const TRANSLATIONS = {
         "is-enable": "Režim více uživatelů je povolen",
         enable: "Povolit režim více uživatelů",
         description:
-          "Ve výchozím nastavení budete jediným správcem. Jako správce budete muset vytvářet účty pro všechny nové uživatele nebo správce. Neztrácejte své heslo, protože pouze uživatel typu správce může resetovat hesla.",
+          "Ve výchozím nastavení budete jediným správcem. Jako správce budete muset vytvářet účty pro všechny nové uživatele nebo správce. Neztraťte své heslo, protože pouze uživatel typu správce může resetovat hesla.",
         username: "Uživatelské jméno účtu správce",
         password: "Heslo účtu správce",
       },
@@ -661,7 +661,7 @@ const TRANSLATIONS = {
     password: {
       title: "Ochrana heslem",
       description:
-        "Chraňte svou instanci AnythingLLM heslem. Pokud zapomenete, neexistuje způsob obnovení, proto se ujistěte, že heslo uložíte.",
+        "Chraňte svou instanci AnythingLLM heslem. Pokud heslo zapomenete, neexistuje způsob obnovení, proto se ujistěte, že heslo máte uložené.",
       "password-label": "Heslo instance",
     },
   },
@@ -707,26 +707,26 @@ const TRANSLATIONS = {
       description:
         "Importovat celé veřejné nebo soukromé úložiště GitHub jedním kliknutím.",
       URL: "URL úložiště GitHub",
-      URL_explained: "URL úložiště GitHub, které chcete sbírat.",
+      URL_explained: "URL úložiště GitHub, které chcete importovat.",
       token: "Přístupový token GitHub",
       optional: "volitelné",
       token_explained: "Přístupový token pro prevenci omezení rychlosti.",
       token_explained_start: "Bez ",
       token_explained_link1: "Osobního přístupového tokenu",
       token_explained_middle:
-        ", API GitHub může omezit počet souborů, které lze sbírat kvůli limitům rychlosti. Můžete ",
+        ", API GitHub může omezit počet souborů, které lze stahovat kvůli limitům rychlosti. Můžete ",
       token_explained_link2: "vytvořit dočasný přístupový token",
       token_explained_end: " k vyhnutí se tomuto problému.",
       ignores: "Ignorované soubory",
       git_ignore:
-        "Seznam ve formátu .gitignore k ignorování specifických souborů během sbírání. Stiskněte Enter po každé položce, kterou chcete uložit.",
+        "Seznam ve formátu .gitignore k ignorování specifických souborů během stahování. Stiskněte Enter po každé položce, kterou chcete uložit.",
       task_explained:
         "Po dokončení budou všechny soubory k dispozici pro vložení do pracovních prostorů ve výběru dokumentů.",
-      branch: "Větev, ze které chcete sbírat soubory",
+      branch: "Větev, ze které chcete importovat soubory",
       branch_loading: "-- načítání dostupných větví --",
-      branch_explained: "Větev, ze které chcete sbírat soubory.",
+      branch_explained: "Větev, ze které chcete importovat soubory.",
       token_information:
-        "Bez vyplnění <b>Přístupového tokenu GitHub</b> bude tento datový konektor schopen sbírat pouze <b>nejvyšší úrovňové</b> soubory úložiště kvůli omezením veřejného API GitHub.",
+        "Bez vyplnění <b>Přístupového tokenu GitHub</b> bude tento datový konektor schopen stahovat pouze <b>nejvyšší úrovňové</b> soubory úložiště kvůli omezením veřejného API GitHub.",
       token_personal:
         "Získejte bezplatný osobní přístupový token s účtem GitHub zde.",
     },
@@ -735,7 +735,7 @@ const TRANSLATIONS = {
       description:
         "Importovat celé veřejné nebo soukromé úložiště GitLab jedním kliknutím.",
       URL: "URL úložiště GitLab",
-      URL_explained: "URL úložiště GitLab, které chcete sbírat.",
+      URL_explained: "URL úložiště GitLab, které chcete importovat.",
       token: "Přístupový token GitLab",
       optional: "volitelné",
       token_explained: "Přístupový token pro prevenci omezení rychlosti.",
@@ -743,20 +743,20 @@ const TRANSLATIONS = {
       token_explained_start: "Bez ",
       token_explained_link1: "Osobního přístupového tokenu",
       token_explained_middle:
-        ", API GitLab může omezit počet souborů, které lze sbírat kvůli limitům rychlosti. Můžete ",
+        ", API GitLab může omezit počet souborů, které lze stahovat kvůli limitům rychlosti. Můžete ",
       token_explained_link2: "vytvořit dočasný přístupový token",
       token_explained_end: " k vyhnutí se tomuto problému.",
       fetch_issues: "Načíst problémy jako dokumenty",
       ignores: "Ignorované soubory",
       git_ignore:
-        "Seznam ve formátu .gitignore k ignorování specifických souborů během sbírání. Stiskněte Enter po každé položce, kterou chcete uložit.",
+        "Seznam ve formátu .gitignore k ignorování specifických souborů během stahování. Stiskněte Enter po každé položce, kterou chcete uložit.",
       task_explained:
         "Po dokončení budou všechny soubory k dispozici pro vložení do pracovních prostorů ve výběru dokumentů.",
-      branch: "Větev, ze které chcete sbírat soubory",
+      branch: "Větev, ze které chcete importovat soubory",
       branch_loading: "-- načítání dostupných větví --",
-      branch_explained: "Větev, ze které chcete sbírat soubory.",
+      branch_explained: "Větev, ze které chcete importovat soubory.",
       token_information:
-        "Bez vyplnění <b>Přístupového tokenu GitLab</b> bude tento datový konektor schopen sbírat pouze <b>nejvyšší úrovňové</b> soubory úložiště kvůli omezením veřejného API GitLab.",
+        "Bez vyplnění <b>Přístupového tokenu GitLab</b> bude tento datový konektor schopen stahovat pouze <b>nejvyšší úrovňové</b> soubory úložiště kvůli omezením veřejného API GitLab.",
       token_personal:
         "Získejte bezplatný osobní přístupový token s účtem GitLab zde.",
     },
@@ -771,7 +771,7 @@ const TRANSLATIONS = {
       task_explained:
         "Po dokončení bude přepis k dispozici pro vložení do pracovních prostorů ve výběru dokumentů.",
       language: "Jazyk přepisu",
-      language_explained: "Vyberte jazyk přepisu, který chcete sbírat.",
+      language_explained: "Vyberte jazyk přepisu, který chcete importovat.",
       loading_languages: "-- načítání dostupných jazyků --",
     },
     "website-depth": {
@@ -793,7 +793,7 @@ const TRANSLATIONS = {
       description: "Importovat celou stránku Confluence jedním kliknutím.",
       deployment_type: "Typ nasazení Confluence",
       deployment_type_explained:
-        "Určete, zda je vaše instance Conference hostována na cloudu Atlassian nebo sama hostovaná.",
+        "Určete, zda je vaše instance Conference hostována na cloudu Atlassian nebo na vlastním hostingu.",
       base_url: "Základní URL Confluence",
       base_url_explained: "Toto je základní URL vašeho prostoru Confluence.",
       space_key: "Klíč prostoru Confluence",
@@ -815,7 +815,7 @@ const TRANSLATIONS = {
       pat_token_explained: "Váš osobní přístupový token Confluence.",
       bypass_ssl: "Obejití ověření certifikátu SSL",
       bypass_ssl_explained:
-        "Povolte tuto možnost k obejití ověření certifikátu SSL pro samo-hostované instance Confluence s vlastnoručně podepsaným certifikátem",
+        "Povolte tuto možnost k obejití ověření certifikátu SSL pro vlastní hosting instance Confluence s vlastnoručně podepsaným certifikátem",
       task_explained:
         "Po dokončení bude obsah stránky k dispozici pro vložení do pracovních prostorů ve výběru dokumentů.",
     },
@@ -899,12 +899,12 @@ const TRANSLATIONS = {
     agents:
       "Zobrazit všechny dostupné agenty, které můžete použít pro chatování.",
     text_size: "Změnit velikost textu.",
-    microphone: "Mluvit svou výzvu.",
+    microphone: "Namluvit svůj prompt.",
     send: "Odeslat zprávu výzvy do pracovního prostoru",
     tts_speak_message: "TTS Číst zprávu",
     copy: "Kopírovat",
-    regenerate: "Regenerovat",
-    regenerate_response: "Regenerovat odpověď",
+    regenerate: "Přegenerovat",
+    regenerate_response: "Přegenerovat odpověď",
     good_response: "Dobrá odpověď",
     more_actions: "Další akce",
     hide_citations: "Skrýt citace",
@@ -914,17 +914,17 @@ const TRANSLATIONS = {
     delete: "Smazat",
     save_submit: "Uložit a odeslat",
     cancel: "Zrušit",
-    edit_prompt: "Upravit výzvu",
+    edit_prompt: "Upravit prompt",
     edit_response: "Upravit odpověď",
     at_agent: "@agenta",
     default_agent_description: " - výchozí agent pro tento pracovní prostor.",
-    custom_agents_coming_soon: "vlastní agenti přicházejí brzy!",
+    custom_agents_coming_soon: "vlastní agenti již brzy!",
     slash_reset: "/reset",
     preset_reset_description: "Vymazat historii chatu a začít nový chat",
     add_new_preset: " Přidat novou předvolbu",
     command: "Příkaz",
     your_command: "váš-příkaz",
-    placeholder_prompt: "Toto je obsah, který bude vložen před vaší výzvou.",
+    placeholder_prompt: "Toto je obsah, který bude vložen před váš prompt.",
     description: "Popis",
     placeholder_description: "Odpovídá básní o LLM.",
     save: "Uložit",
@@ -983,38 +983,38 @@ const TRANSLATIONS = {
   community_hub: {
     publish: {
       system_prompt: {
-        success_title: "Úspěch!",
+        success_title: "Výborně!",
         success_description:
-          "Vaše systémová výzva byla publikována do komunitního centra!",
+          "Vaše systémový prompt byl publikována do komunitního centra!",
         success_thank_you: "Děkujeme za sdílení s komunitou!",
         view_on_hub: "Zobrazit v komunitním centru",
-        modal_title: "Publikovat systémovou výzvu",
+        modal_title: "Publikovat systémový prompt",
         name_label: "Název",
-        name_description: "Toto je zobrazovaný název vaší systémové výzvy.",
+        name_description: "Toto je zobrazovaný název vašeho systémového promptu.",
         name_placeholder: "Moje systémová výzva",
         description_label: "Popis",
         description_description:
-          "Toto je popis vaší systémové výzvy. Použijte k popisu účelu vaší systémové výzvy.",
+          "Toto je popis vašeho systémového promptu. Použijte k popisu účelu vašeho systémového promptu.",
         tags_label: "Štítky",
         tags_description:
-          "Štítky slouží k označení vaší systémové výzvy pro snadnější vyhledávání. Můžete přidat více štítků. Max 5 štítků. Max 20 znaků na štítek.",
+          "Štítky slouží k označení vašeho systémového promptu pro snadnější vyhledávání. Můžete přidat více štítků. Max 5 štítků. Max 20 znaků na štítek.",
         tags_placeholder: "Zadejte a stiskněte Enter pro přidání štítků",
         visibility_label: "Viditelnost",
-        public_description: "Veřejné systémové výzvy jsou viditelné všem.",
+        public_description: "Veřejné systémové prompty jsou viditelné všem.",
         private_description:
-          "Soukromé systémové výzvy jsou viditelné pouze vám.",
+          "Soukromé systémové prompty jsou viditelné pouze vám.",
         publish_button: "Publikovat do komunitního centra",
         submitting: "Publikování...",
         submit: "Publikovat do komunitního centra",
         prompt_label: "Výzva",
         prompt_description:
-          "Toto je skutečná systémová výzva, která bude použita k vedení LLM.",
-        prompt_placeholder: "Zadejte svou systémovou výzvu zde...",
+          "Toto je skutečný systémový prompt, který bude použit k vedení LLM.",
+        prompt_placeholder: "Zadejte svůj systémový prompt zde...",
       },
       agent_flow: {
         public_description: "Veřejné toky agentů jsou viditelné všem.",
         private_description: "Soukromé toky agentů jsou viditelné pouze vám.",
-        success_title: "Úspěch!",
+        success_title: "Výborně!",
         success_description:
           "Váš tok agenta byl publikován do komunitního centra!",
         success_thank_you: "Děkujeme za sdílení s komunitou!",
@@ -1038,7 +1038,7 @@ const TRANSLATIONS = {
           "Toky agentů jsou vždy nahrávány jako soukromé pro ochranu jakýchkoli citlivých dat. Viditelnost můžete změnit v komunitním centru po publikování. Prosím ověřte, že váš tok neobsahuje žádné citlivé nebo soukromé informace před publikováním.",
       },
       slash_command: {
-        success_title: "Úspěch!",
+        success_title: "Výborně!",
         success_description:
           "Váš lomítkový příkaz byl publikován do komunitního centra!",
         success_thank_you: "Děkujeme za sdílení s komunitou!",
