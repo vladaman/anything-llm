@@ -990,7 +990,8 @@ const TRANSLATIONS = {
         view_on_hub: "Zobrazit v komunitním centru", // TODO: Translate "View on Community Hub"
         modal_title: "Publikovat systémový prompt",
         name_label: "Název",
-        name_description: "Toto je zobrazovaný název vašeho systémového promptu.",
+        name_description:
+          "Toto je zobrazovaný název vašeho systémového promptu.",
         name_placeholder: "Moje systémová výzva",
         description_label: "Popis",
         description_description:
@@ -1072,10 +1073,10 @@ const TRANSLATIONS = {
       },
       generic: {
         unauthenticated: {
-          title: "Vyžadováno ověření", // TODO: Translate "Authentication Required"
+          title: "Vyžadováno ověření",
           description:
-            "Musíte se ověřit pomocí komunitního centra AnythingLLM před publikováním položek.", // TODO: Translate "You need to authenticate with the AnythingLLM Community Hub before publishing items."
-          button: "Připojit se ke komunitnímu centru", // TODO: Translate "Connect to Community Hub"
+            "Musíte se ověřit pomocí komunitního centra AnythingLLM před publikováním položek.",
+          button: "Připojit se ke komunitnímu centru",
         },
       },
     },
