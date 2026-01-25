@@ -983,11 +983,11 @@ const TRANSLATIONS = {
   community_hub: {
     publish: {
       system_prompt: {
-        success_title: "Výborně!",
+        success_title: "Úspěch!", // TODO: Translate "Success!"
         success_description:
-          "Vaše systémový prompt byl publikována do komunitního centra!",
-        success_thank_you: "Děkujeme za sdílení s komunitou!",
-        view_on_hub: "Zobrazit v komunitním centru",
+          "Vaše systémový prompt byl publikována do komunitního centra!", // TODO: Translate "Your System Prompt has been published to the Community Hub!"
+        success_thank_you: "Děkujeme za sdílení s komunitou!", // TODO: Translate "Thank you for sharing to the Community!"
+        view_on_hub: "Zobrazit v komunitním centru", // TODO: Translate "View on Community Hub"
         modal_title: "Publikovat systémový prompt",
         name_label: "Název",
         name_description: "Toto je zobrazovaný název vašeho systémového promptu.",
@@ -1014,11 +1014,11 @@ const TRANSLATIONS = {
       agent_flow: {
         public_description: "Veřejné toky agentů jsou viditelné všem.",
         private_description: "Soukromé toky agentů jsou viditelné pouze vám.",
-        success_title: "Výborně!",
+        success_title: "Úspěch!", // TODO: Translate "Success!"
         success_description:
-          "Váš tok agenta byl publikován do komunitního centra!",
-        success_thank_you: "Děkujeme za sdílení s komunitou!",
-        view_on_hub: "Zobrazit v komunitním centru",
+          "Váš tok agenta byl publikován do komunitního centra!", // TODO: Translate "Your Agent Flow has been published to the Community Hub!"
+        success_thank_you: "Děkujeme za sdílení s komunitou!", // TODO: Translate "Thank you for sharing to the Community!"
+        view_on_hub: "Zobrazit v komunitním centru", // TODO: Translate "View on Community Hub"
         modal_title: "Publikovat tok agenta",
         name_label: "Název",
         name_description: "Toto je zobrazovaný název vašeho toku agenta.",
@@ -1038,11 +1038,11 @@ const TRANSLATIONS = {
           "Toky agentů jsou vždy nahrávány jako soukromé pro ochranu jakýchkoli citlivých dat. Viditelnost můžete změnit v komunitním centru po publikování. Prosím ověřte, že váš tok neobsahuje žádné citlivé nebo soukromé informace před publikováním.",
       },
       slash_command: {
-        success_title: "Výborně!",
+        success_title: "Úspěch!", // TODO: Translate "Success!"
         success_description:
-          "Váš lomítkový příkaz byl publikován do komunitního centra!",
-        success_thank_you: "Děkujeme za sdílení s komunitou!",
-        view_on_hub: "Zobrazit v komunitním centru",
+          "Váš lomítkový příkaz byl publikován do komunitního centra!", // TODO: Translate "Your Slash Command has been published to the Community Hub!"
+        success_thank_you: "Děkujeme za sdílení s komunitou!", // TODO: Translate "Thank you for sharing to the Community!"
+        view_on_hub: "Zobrazit v komunitním centru", // TODO: Translate "View on Community Hub"
         modal_title: "Publikovat lomítkový příkaz",
         name_label: "Název",
         name_description:
@@ -1072,10 +1072,10 @@ const TRANSLATIONS = {
       },
       generic: {
         unauthenticated: {
-          title: "Vyžadováno ověření",
+          title: "Vyžadováno ověření", // TODO: Translate "Authentication Required"
           description:
-            "Musíte se ověřit pomocí komunitního centra AnythingLLM před publikováním položek.",
-          button: "Připojit se ke komunitnímu centru",
+            "Musíte se ověřit pomocí komunitního centra AnythingLLM před publikováním položek.", // TODO: Translate "You need to authenticate with the AnythingLLM Community Hub before publishing items."
+          button: "Připojit se ke komunitnímu centru", // TODO: Translate "Connect to Community Hub"
         },
       },
     },
